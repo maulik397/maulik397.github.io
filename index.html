@@ -19,7 +19,7 @@
     <div class="main-header__logo-container">
       <div class="main-header__logo-img-cont">
         <img
-          src="https://d33wubrfki0l68.cloudfront.net/32c48e23e828c42a99a37db81e2a91d7c8eed4de/d134a/assets/png/ram-maheshwari.png"
+          src="./assets/logo_1.png"
           alt="logo Image" class="main-header__logo-img" />
       </div>
       <h4 class="main-header__logo-text">Maulik Dalwadi</h4>
@@ -78,8 +78,12 @@
             I'm Maulik Dalwadi!<br> A Web Developer Building Awesome Webapps And Websites.
           </span>
         </h1>
+        <a href="/assets/Maulik__resume.pdf" download>
         <button class="btn btn-theme home-hero__btn-theme">Resume</button>
+      </a>
+      <a href="./index.html#contact">
         <button class="btn btn-inv home-hero__btn-theme">Contact</button>
+      </a>
       </div>
     </div>
   </section>
@@ -115,7 +119,7 @@
                 let's connect !
               </span>
             </p>
-            <button class="btn btn-theme about__btn-theme">Projects</button>
+            
           </div>
           <div class="about__skill-info">
             <h3 class="heading-quaternary about__heading-quaternary">
@@ -246,16 +250,16 @@
 
               <p class="text-primary projects__list-item-text-primary">
                 <span>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Error, aliquid! Itaque corrupti magnam fugiat mollitia
-                  labore magni saepe veritatis voluptatum alias fugit.
-                  Explicabo ducimus
+                  In this project i have use react & material UI  for frontend part and for backend i have use express js.
+                   
+                  Implemented Qr code genration using react-qr-code library.
+                 
+
                 </span>
                 <!-- <br />
                   <br /> -->
                 <span>
-                  sapiente aut corporis odio repellendus? Lorem ipsum dolor
-                  sit amet, consectetur adipisicing elit
+                  For User authentication I haved used Passport.js for OAuth thorugh which user can Signin via Google or Github.
                 </span>
               </p>
               <button class="btn btn-theme projects__btn-theme" onclick="location.href=`https://urlshortener.maulikdalwadi.tech`;" target="_blank" >
@@ -276,16 +280,17 @@
 
               <p class="text-primary projects__list-item-text-primary">
                 <span>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Error, aliquid! Itaque corrupti magnam fugiat mollitia
-                  labore magni saepe veritatis voluptatum alias fugit.
-                  Explicabo ducimus
+                  Implemented JWT-based authentication for secure login and registration using cookies for session
+                  management.<br>
+                   Enabled CRUD operations, allowing users to create new posts, view existing ones, update content,
+                  and delete posts when necessary.
+           
                 </span>
                 <!-- <br />
                   <br /> -->
                 <span>
-                  sapiente aut corporis odio repellendus? Lorem ipsum dolor
-                  sit amet, consectetur adipisicing elit
+                  Developed RESTful APIs using Node.js and Express.js to handle client-server communication efficiently.
+                  Utilized MongoDB Atlas for cloud-based database management.
                 </span>
               </p>
               <button class="btn btn-inv projects__btn-inv" onclick="location.href='https://github.com/maulik397/MERN-Blog';">Code Link</button>
@@ -313,57 +318,24 @@
 
               <p class="text-primary projects__list-item-text-primary">
                 <span>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Error, aliquid! Itaque corrupti magnam fugiat mollitia
-                  labore magni saepe veritatis voluptatum alias fugit.
-                  Explicabo ducimus
+                  Developed a Python-based Snake game with real-time hand gesture control using OpenCV and
+                  cvzone.
+                   Implemented core game mechanics including snake movement, food generation, scoring, and collision detection.
+                   Enhanced user interaction with intuitive hand gesture recognition and visual feedback.
+                 
                 </span>
                 <!-- <br />
                   <br /> -->
                 <span>
-                  sapiente aut corporis odio repellendus? Lorem ipsum dolor
-                  sit amet, consectetur adipisicing elit
+                  Designed for intuitive interaction, allowing players to reset the game state by pressing "R" on the
+                  keyboard.
                 </span>
               </p>
               
               <button class="btn btn-inv projects__btn-inv" onclick="location.href='https://github.com/maulik397/Virtual-Mouse-Snake-Game';">Code Link</button>
             </div>
           </div>
-          <div class="projects__list-item projects__list-item--inv">
-            <div class="projects__list-item-details">
-              <div class="projects__list-item-img-cont">
-                <img src="./assets/mock.png" alt="Project Image" class="projects__list-item-img" />
-              </div>
-              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
-                Project Name
-              </h3>
-              <!-- <hr class="projects__title-text-divider" /> -->
-
-              <p class="text-primary projects__list-item-text-primary">
-                <span>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Error, aliquid! Itaque corrupti magnam fugiat mollitia
-                  labore magni saepe veritatis voluptatum alias fugit.
-                  Explicabo ducimus
-                </span>
-                <!-- <br />
-                  <br /> -->
-                <span>
-                  sapiente aut corporis odio repellendus? Lorem ipsum dolor
-                  sit amet, consectetur adipisicing elit
-                </span>
-              </p>
-              <button class="btn btn-theme projects__btn-theme">
-                Live Link
-              </button>
-              <button class="btn btn-inv projects__btn-inv">Code Link</button>
-            </div>
-            <div class="projects__list-item-count">
-              <span class="projects__list-item-count-num"> 4 </span>
-              <span class="projects__list-item-count-line"> </span>
-              <span class="projects__list-item-count-end-dot"> </span>
-            </div>
-          </div>
+          <!-- projects-->
         </div>
       </div>
     </div>
@@ -412,3 +384,39 @@
 </body>
 
 </html>
+<!--
+<div class="projects__list-item projects__list-item--inv">
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/mock.png" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Project Name
+              </h3>
+              
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Error, aliquid! Itaque corrupti magnam fugiat mollitia
+                  labore magni saepe veritatis voluptatum alias fugit.
+                  Explicabo ducimus
+                </span>
+             
+                <span>
+                  sapiente aut corporis odio repellendus? Lorem ipsum dolor
+                  sit amet, consectetur adipisicing elit
+                </span>
+              </p>
+              <button class="btn btn-theme projects__btn-theme">
+                Live Link
+              </button>
+              <button class="btn btn-inv projects__btn-inv">Code Link</button>
+            </div>
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 4 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+          </div>
+-->

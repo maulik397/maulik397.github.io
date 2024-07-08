@@ -523,7 +523,7 @@ a {
 .skills-showcase__list-item {
   padding: 3rem;
   border-radius: 5px;
-  background: #fff;
+  background-color: rgb(19, 21, 22);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
